@@ -1,24 +1,45 @@
-# air_demo_vue
+# 简易指南 v1.0
 
-## Project setup
-```
-yarn install
-```
+这是一个由个人开发的轻量级生活指南应用，旨在帮助刚步入社会的学生群体掌握基本的生活常识。
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 在线预览（可选）
+[访问项目演示站点](https://your-demo-url.com)
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## 项目简介
 
-### Lints and fixes files
-```
-yarn lint
-```
+“简易指南” 是一个面向年轻群体的生活知识导航工具，目前包含了关于 **买菜做饭**、**考研考公**、**求职租房** 等实用话题的部分内容。通过图文结合的方式，向用户传达简洁、直接、实用的生活信息。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+本项目目前为 **v1.0 初始版本**，实现了基本的界面和内容展示功能，所有指南部分的图片和文案已基本完成。
+
+## 项目目标
+
+帮助初入社会的年轻人掌握以下方面的基本常识：
+
+- 如何合理买菜、做饭
+- 考研/考公的路径选择与建议
+- 租房、找工作的注意事项
+- 更多实用生活指南持续补充中...
+
+
+## 下一步开发计划
+
+- [ ] **开发社区模块**：支持用户交流经验、提问分享
+- [ ] **完善指南功能**：引入更多分类、内容搜索、收藏功能
+- [ ] **列表视图优化**：支持更清晰直观的导航体验
+- [ ] **集成 AI 功能**（探索中）：
+  - 导入 AI 对话助手
+  - 根据用户选购的食材推荐菜谱
+  - 智能问答、日常生活建议辅助
+
+## 使用技术
+
+- Vue 3
+- Vue Router
+- @tsparticles/vue3（粒子背景特效）
+- 计划引入更多前后端技术以支持社区与智能功能
+
+## 启动项目
+
+```bash
+npm install
+npm run dev
